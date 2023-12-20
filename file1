@@ -1,0 +1,5 @@
+What is the group id of a project?
+Maven GroupID - Coding Ninjas
+GroupID is a unique entity among all the projects. The GroupID follows the naming convention of the Java Package name, which starts with the reserved domain name. Maven needs to enforce the rule as multiple legacies have yet to follow the pattern and, instead of doing the same, end up using single-word GroupIDs.
+
+artifactId is the name of the jar without version. If you created it, then you can choose whatever name you want with lowercase letters and no strange symbols. If it's a third party jar, you have to take the name of the jar as it's distributed.
